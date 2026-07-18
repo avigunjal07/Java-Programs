@@ -1,0 +1,19 @@
+import java.util.*;
+public class Fibonnaci{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=0;
+        int b=1;
+        int c=0;
+
+        System.out.print("Enter a number : ");
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            System.out.println(a);
+            c=a+b;
+            a=b;
+            b=c;
+            
+        }
+    }
+}
